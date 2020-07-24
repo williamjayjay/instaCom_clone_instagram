@@ -24,8 +24,22 @@ class Feed extends Component {
             nickname: 'Francisco Leandro Lima',
             email: 'FNLIMA@gmail.com',
             image: require('../../assets/imgs/bw.jpg'),
-            comments: []
-        }]
+            comments: [{
+                nickname: 'Jorje Jesus',
+                comment: 'PensativoPensativoPensativoPensativoPensativoPensativoPensativoPensativoPensativoPensativoPensativo...'
+            }]
+        }, {
+            id: Math.random(),
+            nickname: 'Hvitsark Lothbrook',
+            email: 'vikng@gmail.com',
+            image: require('../../assets/imgs/gate.jpg'),
+            comments: [{
+                nickname: 'Ubbe Lothbrook',
+                comment: 'vakkert dette mesterverket en veldig gammel portsdaa'
+            }]
+        }
+    
+    ]
     }
 
     render() {

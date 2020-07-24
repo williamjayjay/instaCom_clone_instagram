@@ -11,7 +11,7 @@ class Comments extends Component {
                 return (
                     <View style={styles.commentContainer} key={index} >
                         <Text style={styles.nickname} > {item.nickname}:</Text>
-                        <Text style={styles.comment} > {item.comment}</Text>
+                        <Text style={styles.comment} >{item.comment}</Text>
 
                     </View>
                 )
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     },
     comment: {
         color: '#555',
-        width:320
+        width:lateral/1.6
     }
 })
 
